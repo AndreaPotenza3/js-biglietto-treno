@@ -19,7 +19,7 @@ if( age < 18) {
 
 console.log("Percentuale sconto:", discountPercent)
 
-const discount = (price * discountPercent)
+const discount = (price * discountPercent / 100)
 console.log("sconto", discount)
 
 const finalPrice = price - discount
